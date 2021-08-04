@@ -1,0 +1,282 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-1c9b5879390b
+Exec   : gmshToFoam wedgePipe.msh
+Date   : Aug 04 2021
+Time   : 12:15:55
+Host   : "juan-i5"
+PID    : 156084
+I/O    : uncollated
+Case   : /home/juan/OpenFOAM/run/PipeFlow/LaminarPipeFlow
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:7
+    Line 7	axisOfS
+    Surface 1	wedge0
+    Surface 2	wedge1
+    Surface 3	inlet
+    Surface 4	outlet
+    Surface 5	pipeWall
+    Volume 6	internal
+
+Starting to read points at line 15
+Vertices to be read:11800
+Vertices read:11800
+
+Starting to read cells at line 11818
+Cells to be read:17769
+
+Unhandled element 1 at line 11820
+Unhandled element 1 at line 11821
+Unhandled element 1 at line 11822
+Unhandled element 1 at line 11823
+Unhandled element 1 at line 11824
+Unhandled element 1 at line 11825
+Unhandled element 1 at line 11826
+Unhandled element 1 at line 11827
+Unhandled element 1 at line 11828
+Unhandled element 1 at line 11829
+Unhandled element 1 at line 11830
+Unhandled element 1 at line 11831
+Unhandled element 1 at line 11832
+Unhandled element 1 at line 11833
+Unhandled element 1 at line 11834
+Unhandled element 1 at line 11835
+Unhandled element 1 at line 11836
+Unhandled element 1 at line 11837
+Unhandled element 1 at line 11838
+Unhandled element 1 at line 11839
+Unhandled element 1 at line 11840
+Unhandled element 1 at line 11841
+Unhandled element 1 at line 11842
+Unhandled element 1 at line 11843
+Unhandled element 1 at line 11844
+Unhandled element 1 at line 11845
+Unhandled element 1 at line 11846
+Unhandled element 1 at line 11847
+Unhandled element 1 at line 11848
+Unhandled element 1 at line 11849
+Unhandled element 1 at line 11850
+Unhandled element 1 at line 11851
+Unhandled element 1 at line 11852
+Unhandled element 1 at line 11853
+Unhandled element 1 at line 11854
+Unhandled element 1 at line 11855
+Unhandled element 1 at line 11856
+Unhandled element 1 at line 11857
+Unhandled element 1 at line 11858
+Unhandled element 1 at line 11859
+Unhandled element 1 at line 11860
+Unhandled element 1 at line 11861
+Unhandled element 1 at line 11862
+Unhandled element 1 at line 11863
+Unhandled element 1 at line 11864
+Unhandled element 1 at line 11865
+Unhandled element 1 at line 11866
+Unhandled element 1 at line 11867
+Unhandled element 1 at line 11868
+Unhandled element 1 at line 11869
+Unhandled element 1 at line 11870
+Unhandled element 1 at line 11871
+Unhandled element 1 at line 11872
+Unhandled element 1 at line 11873
+Unhandled element 1 at line 11874
+Unhandled element 1 at line 11875
+Unhandled element 1 at line 11876
+Unhandled element 1 at line 11877
+Unhandled element 1 at line 11878
+Unhandled element 1 at line 11879
+Unhandled element 1 at line 11880
+Unhandled element 1 at line 11881
+Unhandled element 1 at line 11882
+Unhandled element 1 at line 11883
+Unhandled element 1 at line 11884
+Unhandled element 1 at line 11885
+Unhandled element 1 at line 11886
+Unhandled element 1 at line 11887
+Unhandled element 1 at line 11888
+Unhandled element 1 at line 11889
+Unhandled element 1 at line 11890
+Unhandled element 1 at line 11891
+Unhandled element 1 at line 11892
+Unhandled element 1 at line 11893
+Unhandled element 1 at line 11894
+Unhandled element 1 at line 11895
+Unhandled element 1 at line 11896
+Unhandled element 1 at line 11897
+Unhandled element 1 at line 11898
+Unhandled element 1 at line 11899
+Unhandled element 1 at line 11900
+Unhandled element 1 at line 11901
+Unhandled element 1 at line 11902
+Unhandled element 1 at line 11903
+Unhandled element 1 at line 11904
+Unhandled element 1 at line 11905
+Unhandled element 1 at line 11906
+Unhandled element 1 at line 11907
+Unhandled element 1 at line 11908
+Unhandled element 1 at line 11909
+Unhandled element 1 at line 11910
+Unhandled element 1 at line 11911
+Unhandled element 1 at line 11912
+Unhandled element 1 at line 11913
+Unhandled element 1 at line 11914
+Unhandled element 1 at line 11915
+Unhandled element 1 at line 11916
+Unhandled element 1 at line 11917
+Unhandled element 1 at line 11918
+Unhandled element 1 at line 11919
+Unhandled element 1 at line 11920
+Unhandled element 1 at line 11921
+Unhandled element 1 at line 11922
+Unhandled element 1 at line 11923
+Unhandled element 1 at line 11924
+Unhandled element 1 at line 11925
+Unhandled element 1 at line 11926
+Unhandled element 1 at line 11927
+Unhandled element 1 at line 11928
+Unhandled element 1 at line 11929
+Unhandled element 1 at line 11930
+Unhandled element 1 at line 11931
+Unhandled element 1 at line 11932
+Unhandled element 1 at line 11933
+Unhandled element 1 at line 11934
+Unhandled element 1 at line 11935
+Unhandled element 1 at line 11936
+Unhandled element 1 at line 11937
+Unhandled element 1 at line 11938
+Unhandled element 1 at line 11939
+Unhandled element 1 at line 11940
+Unhandled element 1 at line 11941
+Unhandled element 1 at line 11942
+Unhandled element 1 at line 11943
+Unhandled element 1 at line 11944
+Unhandled element 1 at line 11945
+Unhandled element 1 at line 11946
+Unhandled element 1 at line 11947
+Unhandled element 1 at line 11948
+Unhandled element 1 at line 11949
+Unhandled element 1 at line 11950
+Unhandled element 1 at line 11951
+Unhandled element 1 at line 11952
+Unhandled element 1 at line 11953
+Unhandled element 1 at line 11954
+Unhandled element 1 at line 11955
+Unhandled element 1 at line 11956
+Unhandled element 1 at line 11957
+Unhandled element 1 at line 11958
+Unhandled element 1 at line 11959
+Unhandled element 1 at line 11960
+Unhandled element 1 at line 11961
+Unhandled element 1 at line 11962
+Unhandled element 1 at line 11963
+Unhandled element 1 at line 11964
+Unhandled element 1 at line 11965
+Unhandled element 1 at line 11966
+Unhandled element 1 at line 11967
+Unhandled element 1 at line 11968
+Unhandled element 1 at line 11969
+Unhandled element 1 at line 11970
+Unhandled element 1 at line 11971
+Unhandled element 1 at line 11972
+Unhandled element 1 at line 11973
+Unhandled element 1 at line 11974
+Unhandled element 1 at line 11975
+Unhandled element 1 at line 11976
+Unhandled element 1 at line 11977
+Unhandled element 1 at line 11978
+Unhandled element 1 at line 11979
+Unhandled element 1 at line 11980
+Unhandled element 1 at line 11981
+Unhandled element 1 at line 11982
+Unhandled element 1 at line 11983
+Unhandled element 1 at line 11984
+Unhandled element 1 at line 11985
+Unhandled element 1 at line 11986
+Unhandled element 1 at line 11987
+Unhandled element 1 at line 11988
+Unhandled element 1 at line 11989
+Unhandled element 1 at line 11990
+Unhandled element 1 at line 11991
+Unhandled element 1 at line 11992
+Unhandled element 1 at line 11993
+Unhandled element 1 at line 11994
+Unhandled element 1 at line 11995
+Unhandled element 1 at line 11996
+Unhandled element 1 at line 11997
+Unhandled element 1 at line 11998
+Unhandled element 1 at line 11999
+Unhandled element 1 at line 12000
+Unhandled element 1 at line 12001
+Unhandled element 1 at line 12002
+Unhandled element 1 at line 12003
+Unhandled element 1 at line 12004
+Unhandled element 1 at line 12005
+Unhandled element 1 at line 12006
+Unhandled element 1 at line 12007
+Unhandled element 1 at line 12008
+Unhandled element 1 at line 12009
+Unhandled element 1 at line 12010
+Unhandled element 1 at line 12011
+Unhandled element 1 at line 12012
+Unhandled element 1 at line 12013
+Unhandled element 1 at line 12014
+Unhandled element 1 at line 12015
+Unhandled element 1 at line 12016
+Unhandled element 1 at line 12017
+Unhandled element 1 at line 12018
+Mapping region 3 to Foam patch 0
+Mapping region 4 to Foam patch 1
+Mapping region 1 to Foam patch 2
+Mapping region 5 to Foam patch 3
+Mapping region 2 to Foam patch 4
+Mapping region 6 to Foam cellZone 0
+Cells:
+    total:5771
+    hex  :5572
+    prism:199
+    pyr  :0
+    tet  :0
+
+CellZones:
+Zone	Size
+    0	5771
+
+Skipping tag  at line 29590
+Patch 0 gets name inlet
+Patch 1 gets name outlet
+Patch 2 gets name wedge0
+Patch 3 gets name pipeWall
+Patch 4 gets name wedge1
+
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject&, Foam::pointField&&, const cellShapeList&, const faceListList&, const wordList&, const wordList&, const Foam::word&, const Foam::word&, const wordList&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 595
+    Found 11799 undefined faces in mesh; adding to default patch.
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+Finding faces of patch 4
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone internal and cellSet
+End
+
